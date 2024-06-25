@@ -76,7 +76,7 @@
                         Verzendkosten en BTW worden berekend bij het afrekenen.
                         </p>
 
-                        <form action="" method="post">
+                        <form action="{{route('cart.checkout')}}" method="post">
                             @csrf
                             <button type="submit" class="btn-primary bg-green-600 hover:bg-green-500 w-full py-3 text-lg">
                             Doorgaan naar afrekenen
