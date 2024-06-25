@@ -169,7 +169,7 @@
                         <label for="sameAsBillingAddress" class="text-gray-700">
                             <input @change="$event.target.checked ? shippingAddress = {...billingAddress} : ''"
                                    id="sameAsBillingAddress" type="checkbox"
-                                   class="text-green-600 focus:ring-green-600 mr-2"> Zelfde als bezorg adres
+                                   class="text-green-600 focus:ring-green-600 mr-2"> Zelfde als factuur adres
                         </label>
                     </div>
                     <div class="grid grid-cols-2 gap-3 mb-3">
